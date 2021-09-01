@@ -1,0 +1,11 @@
+<?php
+
+
+/**
+ * Implements hook_install
+ */
+
+ 
+function drupal_hello_install() {
+
+}

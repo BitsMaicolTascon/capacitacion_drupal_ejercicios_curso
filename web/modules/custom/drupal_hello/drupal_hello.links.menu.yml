@@ -1,0 +1,23 @@
+drupal.hello:
+  title: 'Hello'
+  description: 'Esta pagina te dira hola'
+  route_name: drupal.hello
+  menu_name: main
+  weight: 1
+
+drupal.sum:
+  title: 'Sum'
+  description: 'Esta pagina sumara'
+  route_name: drupal.sum
+  route_parameters:
+    number_one: 20
+    number_two: 50
+  menu_name: main
+  weight: 1
+
+my_pages.admin_drupal_pages:
+  title: 'Saludo'
+  description: 'Esta pagina dice hola'
+  route_name: drupal.hello
+  parent: system.admin
+  weight: -100

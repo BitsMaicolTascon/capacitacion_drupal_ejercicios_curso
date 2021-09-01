@@ -1,0 +1,17 @@
+drupal_pages.tab1:
+  route_name: drupal.hello
+  title: Saludo
+  base_route: drupal_pages.tab1
+  weight: 10
+
+drupal_pages.tab2:
+  route_name: drupal.sum
+  title: Suma
+  base_route: drupal_pages.tab2
+  weight: 20
+
+drupal_pages.tab3:
+  route_name: drupal.user
+  title: User
+  base_route: drupal_pages.tab3
+  weight: 30

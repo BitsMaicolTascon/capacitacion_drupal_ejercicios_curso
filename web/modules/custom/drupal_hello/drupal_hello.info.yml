@@ -1,0 +1,5 @@
+name: Drupal Hello
+type: module
+description: 'This module says hello'
+package: Drupal curso
+core_version_requirement: 9.x

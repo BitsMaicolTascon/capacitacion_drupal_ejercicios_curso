@@ -1,0 +1,39 @@
+drupal.insert:
+  path: '/insert'
+  defaults:
+    _controller: '\Drupal\drupal_db\Controller\DrupalDataBaseController::insert'
+    _title: 'Insert data'
+  requirements:
+    _permission: 'access content'
+
+drupal.select:
+  path: '/select'
+  defaults:
+    _controller: '\Drupal\drupal_db\Controller\DrupalDataBaseController::select'
+    _title: 'Select data'
+  requirements:
+    _permission: 'access content'
+
+drupal.update:
+  path: '/update'
+  defaults:
+    _controller: '\Drupal\drupal_db\Controller\DrupalDataBaseController::update'
+    _title: 'Update data'
+  requirements:
+    _permission: 'access content'
+
+drupal.delete:
+  path: '/delete'
+  defaults:
+    _controller: '\Drupal\drupal_db\Controller\DrupalDataBaseController::delete'
+    _title: 'Delete data'
+  requirements:
+    _permission: 'access content'
+
+drupal_db.company_form:
+  path: '/company/add'
+  defaults:
+    _form: \Drupal\drupal_db\Form\CompanyForm
+    _title: 'Add company'
+  requirements:
+    _permission: 'access content'

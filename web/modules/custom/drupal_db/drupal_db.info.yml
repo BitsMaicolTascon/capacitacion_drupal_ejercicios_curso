@@ -1,0 +1,5 @@
+name: 'Drupal db'
+type: module
+description: 'Module for db'
+packages: Durpal curso
+core_version_requirement: 9.x
